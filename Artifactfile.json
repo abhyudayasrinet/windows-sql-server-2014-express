@@ -1,0 +1,14 @@
+{
+  "title": "SQL Server 2014 Express with SP1",
+  "description": "Installs SQL Server 2014 Express with SP1 using the Chocolatey package manager",
+  "tags": [
+    "Windows",
+    "Sql server"
+  ],
+  "iconUri": "https://chocolatey.org/content/packageimages/MsSqlServer2014Express.12.0.4100.1.svg",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList mssqlserver2014express"
+
+  }
+}
